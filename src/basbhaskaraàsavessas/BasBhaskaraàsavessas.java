@@ -13,18 +13,17 @@ import java.util.Scanner;
  */
 public class BasBhaskaraàsavessas {
 
-    /**
-     * @param args the command line arguments
-     */
+    // PROGRAMA BHASKARA AS AVESSAS
+    
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("x1 ");
-        double x1 = leitor.nextDouble();
+        double x1 = Double.parseDouble(leitor.nextLine());
         System.out.print("x2 ");
-        double x2 = leitor.nextDouble();
+        double x2 = Double.parseDouble(leitor.nextLine());
         System.out.print("c ");
-        double c = leitor.nextDouble();
+        double c = Double.parseDouble(leitor.nextLine());
 
         // PROCESSAMENTO
         double s = x1 * x2;
